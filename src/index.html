@@ -11,8 +11,8 @@
 
 <body class="bg-black">
   <div class="Container flex w-[80%]  m-auto bg-black h-screen text-white  ">
-    <div class="first  w-[20%] ">
-      <div class="logo  text-white w-9">
+    <div class="first  w-[20%] sticky top-0 h-screen max-sm:hidden ">
+      <div class="logo  text-white w-9 flex max-md:justify-end max-sm:hidden ">
         <svg viewBox="0 0 24 24" aria-hidden="true"
           class="invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
           <g>
@@ -23,68 +23,68 @@
         </svg>
       </div>
       <div class="navbar-icons text-white mt-5 w-full font-bold">
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl  ">
-          <span class="  m-3 material-icons">home</span><span class="">Home</span>
+        <div class=""> 
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl  ">
+            <span class="  m-3 material-icons">home</span><span class="max-md:hidden">Home</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">explore</span><span class="max-md:hidden">Explore</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons"> notifications</span><span class="max-md:hidden">Notification</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">messages</span><span class="max-md:hidden">Messages</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons"> crisis_alert </span><span class="max-md:hidden">Gork</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">groups</span><span class="max-md:hidden">Groups</span>
+          </div>
         </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons">explore</span><span class="">Explore</span>
+
+        <div class="max-sm:hidden">
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">lock</span><span class="max-md:hidden">preimium</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">verified</span><span class="max-md:hidden">verified</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">person</span><span class="max-md:hidden">Profile</span>
+          </div>
+          <div class="icon flex items-center max-md:justify-end w-[80%] hover:bg-gray-900 hover:rounded-3xl">
+            <span class="  m-3 material-icons">more</span><span class="max-md:hidden">More</span>
+          </div>
         </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="m-3 material-icons"> notifications</span><span class="">Notification</span>
+        <div class="icon flex items-center max-md:justify-end w-full justify-center mb-6 mt-5 max-md:w-5">
+          <Button class="bg-blue-500 font-serif font-bold h-10 rounded-xl w-[80%] max-md:hidden ">Post</Button>
         </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="m-3 material-icons">messages</span><span class="">Messages</span>
-        </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons"> crisis_alert </span><span class="">Gork</span>
-        </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons">groups</span><span class="">Groups</span>
-        </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons">lock</span><span class="">preimium</span>
-        </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons">verified</span><span class="">verified</span>
-        </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons">person</span><span class="">Profile</span>
-        </div>
-        <div class="icon flex items-center w-[80%] hover:bg-gray-900 hover:rounded-3xl">
-          <span class="  m-3 material-icons">more</span><span class="">More</span>
-        </div>
-        <div class="icon flex items-center w-full justify-center mb-6 mt-5">
-          <Button class="bg-blue-500 font-serif font-bold h-10 rounded-xl w-[80%] ">Post</Button>
-        </div>
-        <div class="icon flex items-center w-full justify-center mt-3 hover:bg-gray-900 hover:rounded-3xl">
+        <div class="icon flex items-center max-md:justify-end w-full justify-center mt-3 hover:bg-gray-900 hover:rounded-3xl max-sm:hidden ">
           <div class="img ">
             <img src="https://pbs.twimg.com/profile_images/1612314748778864640/6NzTvWCa_bigger.jpg"
               class="rounded-full w-3/4" alt="">
           </div>
-          <div class="user-name font-medium   ">
+          <div class="user-name font-medium max-md:hidden  ">
             <p>SOURAH JANGID</p>
             <p class="text-gray-500">SOURAH_jangid001</p>
           </div>
-          <div class="more">
+          <div class="more max-md:hide">
             <span class="material-icons">more_horiz</span>
           </div>
         </div>
 
       </div>
-
-
-
     </div>
-    <div class="second  w-[50%] border-l-[1px] border-gray-800 border-r-[1px] h-full">
-      <div class="top flex w-full cursor-pointer font-bold relative">
+    <div class="second  w-[50%] border-l-[1px] border-gray-800 border-r-[1px]  overflow-y-scroll  hide-scrollbar max-sm:w-screen max-md:w-full">
+      <div class="top flex w-full cursor-pointer font-bold bg-black sticky top-0">
         <span class="w-[50%] flex justify-center items-center hover:bg-gray-800 p-4">
           <span>For You</span>
         </span>
-
         <span class="w-[50%] flex justify-center items-center hover:bg-gray-800 p-4">
           <span>Following</span>
         </span>
-        <div class="absolute bottom-0 left-24 border-b-4  border-[#1D9BF0]  w-2/12 rounded"></div>
       </div>
 
 
@@ -126,7 +126,7 @@
           <img src="https://pbs.twimg.com/profile_images/1683366300054069248/67v23AEj_bigger.jpg" alt="">
         </div>
         <div class="post m-2 ">
-          <div class="top flex justify-between items-center w-[550px] ">
+          <div class="top flex justify-between items-center w-[85%] ">
             <div class="toname flex justify-center items-center">
               <a href="">premeim</a>
               <span class="  material-icons text-blue-400 cursor-pointer ">verified</span>
@@ -138,8 +138,62 @@
             </div>
           </div>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <img src="https://pbs.twimg.com/media/GZvqLPTa4AEdUZB?format=jpg&name=small"  alt="" class="rounded-2xl mt-4 mb-3 border-gray-600 border-[1px]">
-                
+          <img src="https://pbs.twimg.com/media/GZvqLPTa4AEdUZB?format=jpg&name=small" alt=""
+            class="rounded-2xl mt-4 mb-3 border-gray-600 border-[1px]">
+
+          <div class="commmenta flex justify-between items-center mb-5">
+            <div class="like flex items-center ">
+              <span class="  material-icons  cursor-pointer  w-[30px]">quickreply </span>
+              <span>1.2 <Main></Main></span>
+            </div>
+            <div class="like flex items-center">
+              <span class="  material-icons cursor-pointer  w-[30px] ">favorite</span>
+              <span>12.2M</span>
+            </div>
+            <div class="like flex items-center">
+              <span class="  material-icons  cursor-pointer  w-[30px]">share_review</span>
+              <span>5.2 M</span>
+            </div>
+            <div class="like flex items-center ">
+              <span class="  material-icons cursor-pointer  w-[30px]">visibility</span>
+              <span>332.2m</span>
+            </div>
+            <div class="like flex items-center">
+              <span class="  material-icons cursor-pointer  w-[30px]">bookmark</span>
+              <span>133.2K</span>
+            </div>
+
+
+
+
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+      <div class="posts flex  w-[100%] ">
+        <div class="img w-[10%] h-full ">
+          <img src="https://pbs.twimg.com/profile_images/1683366300054069248/67v23AEj_bigger.jpg" alt="">
+        </div>
+        <div class="post m-2 ">
+          <div class="top flex justify-between items-center w-[85%] ">
+            <div class="toname flex justify-center items-center">
+              <a href="">premeim</a>
+              <span class="  material-icons text-blue-400 cursor-pointer ">verified</span>
+            </div>
+            <div class="any flex">
+              <p>Add</p>
+              <span class="  material-icons text-blue-400 cursor-pointer  w-[30px]">more
+                horize</span>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <img src="https://pbs.twimg.com/media/GZvqLPTa4AEdUZB?format=jpg&name=small" alt=""
+            class="rounded-2xl mt-4 mb-3 border-gray-600 border-[1px]">
+
           <div class="commmenta flex justify-between items-center mb-5">
             <div class="like flex items-center">
               <span class="  material-icons  cursor-pointer  w-[30px]">quickreply </span>
@@ -161,10 +215,10 @@
               <span class="  material-icons cursor-pointer  w-[30px]">bookmark</span>
               <span>133.2K</span>
             </div>
-           
-            
-           
-           
+
+
+
+
           </div>
 
 
@@ -190,8 +244,9 @@
             </div>
           </div>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <img src="https://pbs.twimg.com/media/GZvqLPTa4AEdUZB?format=jpg&name=small"  alt="" class="rounded-2xl mt-4 mb-3 border-gray-600 border-[1px]">
-                
+          <img src="https://pbs.twimg.com/media/GZvqLPTa4AEdUZB?format=jpg&name=small" alt=""
+            class="rounded-2xl mt-4 mb-3 border-gray-600 border-[1px]">
+
           <div class="commmenta flex justify-between items-center mb-5">
             <div class="like flex items-center">
               <span class="  material-icons  cursor-pointer  w-[30px]">quickreply </span>
@@ -213,62 +268,10 @@
               <span class="  material-icons cursor-pointer  w-[30px]">bookmark</span>
               <span>133.2K</span>
             </div>
-           
-            
-           
-           
-          </div>
 
 
 
 
-
-        </div>
-      </div>
-      <div class="posts flex  w-[100%] ">
-        <div class="img w-[10%] h-full ">
-          <img src="https://pbs.twimg.com/profile_images/1683366300054069248/67v23AEj_bigger.jpg" alt="">
-        </div>
-        <div class="post m-2 ">
-          <div class="top flex justify-between items-center w-[550px] ">
-            <div class="toname flex justify-center items-center">
-              <a href="">premeim</a>
-              <span class="  material-icons text-blue-400 cursor-pointer ">verified</span>
-            </div>
-            <div class="any flex">
-              <p>Add</p>
-              <span class="  material-icons text-blue-400 cursor-pointer  w-[30px]">more
-                horize</span>
-            </div>
-          </div>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <img src="https://pbs.twimg.com/media/GZvqLPTa4AEdUZB?format=jpg&name=small"  alt="" class="rounded-2xl mt-4 mb-3 border-gray-600 border-[1px]">
-                
-          <div class="commmenta flex justify-between items-center mb-5">
-            <div class="like flex items-center">
-              <span class="  material-icons  cursor-pointer  w-[30px]">quickreply </span>
-              <span>1.2 <Main></Main></span>
-            </div>
-            <div class="like flex items-center">
-              <span class="  material-icons cursor-pointer  w-[30px] ">favorite</span>
-              <span>12.2M</span>
-            </div>
-            <div class="like flex items-center">
-              <span class="  material-icons  cursor-pointer  w-[30px]">share_review</span>
-              <span>5.2 M</span>
-            </div>
-            <div class="like flex items-center ">
-              <span class="  material-icons cursor-pointer  w-[30px]">visibility</span>
-              <span>332.2m</span>
-            </div>
-            <div class="like flex items-center">
-              <span class="  material-icons cursor-pointer  w-[30px]">bookmark</span>
-              <span>133.2K</span>
-            </div>
-           
-            
-           
-           
           </div>
 
 
@@ -278,7 +281,7 @@
         </div>
       </div>
     </div>
-    <div class="third  w-[30%]">
+    <div class="third  w-[30%] sticky top-0 h-screen hidden md:block max-sm:hidden block ">
       <div class="boxs w-[80%] m-auto  ">
         <div class="input bg-gray-900 rounded-3xl flex mt-4 h-10 items-center">
           <span class="material-icons text-gray-400 mr-4 ml-3">search</span>
